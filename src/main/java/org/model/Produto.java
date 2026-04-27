@@ -22,6 +22,10 @@ public class Produto {
     private Categoria categoria;
     private LocalDateTime dataCadastro = LocalDateTime.now();
 
+    public Produto(){
+
+    }
+
     public Produto (String descricao, String nome, Categoria categoria, BigDecimal preco) {
         this.descricao = descricao;
         this.nome = nome;
